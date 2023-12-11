@@ -1,2 +1,2 @@
-# -
 总结代码调试时的经验
+# model里面设置find_unused_parameters=True,可以忽略掉模型的未参与训练参数。但建议是注释掉项目里导入但没有用到的block和分支，直接手动去除未使用参数，这时系统会提示find_unused_parameters=True是多于操作，并没有找到未使用参数。
