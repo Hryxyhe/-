@@ -4,7 +4,7 @@
 ```python
 with torch.no_grad():
     model.eval()
-    #推理代码...>
+    #你的推理代码...>
 ```
 
 
